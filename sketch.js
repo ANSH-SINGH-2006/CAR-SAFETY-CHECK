@@ -25,16 +25,16 @@ function setup() {
 }
 
 function draw() {
-  background(255,255,255);
+  background("black");
 
   
   car.velocityX=speed;
   car1.velocityX=speed1;
   car0.velocityX=speed0;
 
-  wall.shapeColor=color(80,80,80);
-  wall1.shapeColor=color(80,80,80);
-  wall0.shapeColor=color(80,80,80);
+  wall.shapeColor="blue";
+  wall1.shapeColor="blue";
+  wall0.shapeColor="blue";
 
   
   if(wall.x-car.x<(car.width+wall.width)/2){
